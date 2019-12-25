@@ -1,14 +1,6 @@
 # 简介
 
-<p align="center">
-  <a href="https://github.com/ng-matero">
-    <img width="150" src="logo.png">
-  </a>
-</p>
-
-<h1 align="center">
-NG-MATERO
-</h1>
+<img src="logo.png" alt="logo" width="150">
 
 Ng-Matero 是一个基于 Angular Material 搭建的中后台管理框架。
 
