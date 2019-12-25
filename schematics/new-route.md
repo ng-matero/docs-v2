@@ -81,8 +81,8 @@ $ ng g component routes/<module-name>/<page-name> -m=routes/<module-name>
 
 `ng-matero:page` 和 `component` 的主要不同如下：
 
-- 优化组件命名：为了防止组件重复，默认添加模块名前缀
-- 优化组件生成路径：默认添加到 `routes`
-- 将声明添加到常量数组，比如 `COMPONENTS`
-- 在模块路由中添加组件的路由声明
+* 优化组件命名：为了防止组件重复，默认添加模块名前缀
+* 优化组件生成路径：默认添加到 `routes`
+* 将声明添加到常量数组，比如 `COMPONENTS`
+* 在模块路由中添加组件的路由声明
 

@@ -4,7 +4,7 @@ Ng-Matero 是基于 Angular Material 组件库开发的项目，所以你需要�
 
 ## 安装
 
-使用 CLI 初始化项目是最便捷的方式，通过初始化选项可以定制主题样式等。详情查看 [添加项目](index/project-init.md)
+使用 CLI 初始化项目是最便捷的方式，通过初始化选项可以定制主题样式等。详情查看 [添加项目](schematics/project-init.md)
 
 ```bash
 $ ng new <project-name>
