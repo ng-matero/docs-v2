@@ -11,7 +11,6 @@ $ ng new <project-name>
 $ cd <project-name>
 $ ng add ng-matero
 ```
-
 Except using CLI, you can also clone the Starter repo, but Starter has just side nav layout.
 
 ```bash
@@ -43,7 +42,7 @@ Navigate to `http://localhost:4200/`. The app will automatically reload if you c
 
 ## Project Directory
 
-```text
+```plain
 ├── src
 │   ├── app
 │   │   ├── core
@@ -88,5 +87,4 @@ The directory structure follows the Angular style guide, and is also for conveni
 
 ## Project Running
 
-The project runs `startup.service` by default. Some key information \(such as menu data, user data, etc.\) before the project starts can be written in the `startup.service`.
-
+The project runs `startup.service` by default. Some key information (such as menu data, user data, etc.) before the project starts can be written in the `startup.service`.

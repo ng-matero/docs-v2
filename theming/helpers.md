@@ -12,5 +12,5 @@ Color helpers is divided into background color and text color. Background colors
 
 ## Available CSS Helpers
 
-See [Ng-Matero Helpers](https://ng-matero.github.io/ng-matero/#/helpers) for details.
+See [Ng-Matero](https://ng-matero.github.io/ng-matero/#/helpers/css-class) Helpers for details.
 
