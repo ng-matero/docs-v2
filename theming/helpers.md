@@ -1,4 +1,4 @@
-# 样式辅助类
+# CSS 辅助类
 
 CSS 辅助类在实际工作中有着至关重要的作用，基于 Angular Material 组件库以及 CSS 辅助类，我们几乎不需要再写多余的样式，同时也可以避免出现全局样式覆盖的问题或者这一隐患降到最低，系统中所有的细节调整都应该使用 helpers。
 
@@ -13,4 +13,3 @@ Ng-Matero 中辅助样式类遵循 Material 的设计原则，数值大多是 4 
 ## 可用的 CSS 辅助类
 
 所有 CSS 辅助类可以查看 [Ng-Matero Helpers](https://ng-matero.github.io/ng-matero/#/helpers)
-

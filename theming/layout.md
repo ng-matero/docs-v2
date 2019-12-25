@@ -4,7 +4,7 @@
 
 `core/settings.ts` 是布局配置项的默认值，其中 `navPos`、`dir`、`theme` 和预构建选项关联。
 
-```typescript
+```ts
 export interface AppSettings {
   navPos?: 'side' | 'top';
   dir?: 'ltr' | 'rtl';
@@ -24,7 +24,7 @@ export const defaults: AppSettings = {
   headerPos: 'fixed',
   showUserPanel: true,
   sidenavOpened: true,
-  sidenavCollapsed: false
+  sidenavCollapsed: false,
 };
 ```
 
@@ -34,9 +34,8 @@ export const defaults: AppSettings = {
 
 ### SettingsService
 
-| 方法 | 参数 | 返回值 | 描述 |
-| :--- | :--- | :--- | :--- |
-| getOptions | - | `AppSettings` | 获取配置项 |
-| setLayout | `options?: AppSettings` | `AppSettings` | 设置布局 |
+| 方法         | 参数                            | 返回值             | 描述            |
+|-------------|---------------------------------|-------------------|----------------|
+| getOptions  | -                               | `AppSettings`     | 获取配置项       |
+| setLayout   | `options?: AppSettings`         | `AppSettings`     | 设置布局         |
 | setNavState | `type: string` `value: boolean` | `Observable<any>` | 监听侧边栏导航状态 |
-
