@@ -13,5 +13,5 @@
   * [样式辅助类](theming/helpers.md)
 * [第三方库](libs/README.md)
   * [Flex Layout](libs/flex-layout.md)
-* [国际化](index-3.md)
+* [国际化](i18n.md)
 
