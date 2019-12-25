@@ -12,8 +12,7 @@
   * [颜色](theming/colors.md)
   * [样式辅助类](theming/helpers.md)
 * [响应式布局](layout.md)
-  * [flex-layout](layout/flex-layout.md)
-* [第三方库](libs.md)
+* [第三方库](libs/README.md)
   * [ngx-formly](libs/ngx-formly.md)
 * [国际化](i18n.md)
 
