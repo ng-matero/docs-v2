@@ -21,7 +21,7 @@ $ ng add ng-matero
 
 在添加项目的时候会有预构建选项，它可以更快速地定制主题。
 
-![](https://github.com/ng-matero/docs-v2/tree/e56d1a835c9f0a28def1b0b7198736d12248a4d0/schematics/project-init.png)
+![](../.gitbook/assets/project-init.png)
 
 * Choose a prebuilt layout template \(`static`/`dynamic`\)
 
