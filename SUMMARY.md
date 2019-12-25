@@ -13,5 +13,5 @@
   * [样式辅助类](theming/helpers.md)
 * [响应式布局](layout.md)
 * [第三方库](libs.md)
-* [国际化](guo-ji-hua.md)
+* [国际化](i18n.md)
 
