@@ -6,7 +6,7 @@ Ng-Matero 的主题系统提供了两种常用布局（`侧边栏导航布局` �
 
 Ng-Matero 的主题样式是基于 Sass 编写，所以使用者必须了解 Sass 的基础知识。主题样式目录如下：
 
-```plain
+```text
 ├── styles                                  # 样式目录
 │   ├── functions                           # 函数
 │   ├── helpers                             # 工具类
@@ -22,11 +22,12 @@ Ng-Matero 的主题样式是基于 Sass 编写，所以使用者必须了解 Sas
 
 为了方便修改主题色系，`sidenav` 和 `topnav` 使用了 mixin。
 
-```scss
+```css
 @mixin matero-admin-theme($theme) {
   @include matero-sidenav-theme($theme);
   @include matero-topnav-theme($theme);
 }
 ```
 
-![theme](theme.jpg)
+![theme](https://github.com/ng-matero/docs-v2/tree/154c9e03b714416363f849f3b83e9496de23d6bf/theming/theme.jpg)
+
