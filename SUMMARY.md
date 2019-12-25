@@ -11,7 +11,7 @@
   * [页面标题](theming/title.md)
   * [颜色](theming/colors.md)
   * [样式辅助类](theming/helpers.md)
-* [第三方库](index-2/README.md)
-  * [Flex Layout](index-2/flex-layout.md)
+* [第三方库](libs/README.md)
+  * [Flex Layout](libs/flex-layout.md)
 * [国际化](index-3.md)
 
