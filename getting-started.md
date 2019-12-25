@@ -39,7 +39,7 @@ $ npm run hmr
 
 打开浏览器访问 `http://localhost:4200/`
 
-![](https://github.com/ng-matero/docs-v2/tree/154c9e03b714416363f849f3b83e9496de23d6bf/screenshot.jpg)
+![](.gitbook/assets/screenshot.jpg)
 
 ## 项目目录
 

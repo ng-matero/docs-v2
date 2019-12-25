@@ -29,5 +29,5 @@ Ng-Matero 的主题样式是基于 Sass 编写，所以使用者必须了解 Sas
 }
 ```
 
-![](https://github.com/ng-matero/docs-v2/tree/e56d1a835c9f0a28def1b0b7198736d12248a4d0/theming/theme.jpg)
+![](../.gitbook/assets/theme.jpg)
 
