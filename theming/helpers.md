@@ -1,4 +1,4 @@
-# CSS Helpers
+# Helpers
 
 CSS helpers plays a very important role in the real world. Based on the Angular Material component library and CSS Helpers, we almost don't need to write redundant styles any more. It also avoids the problem of global style overwriting or minimizes the risks. CSS Helpers should be used for adjusting details.
 
@@ -13,3 +13,4 @@ Color helpers is divided into background color and text color. Background colors
 ## Available CSS Helpers
 
 See [Ng-Matero Helpers](https://ng-matero.github.io/ng-matero/#/helpers) for details.
+
