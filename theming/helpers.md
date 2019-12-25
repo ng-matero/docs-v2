@@ -12,5 +12,5 @@ Ng-Matero 中辅助样式类遵循 Material 的设计原则，数值大多是 4 
 
 ## 可用的 CSS 辅助类
 
-所有 CSS 辅助类可以查看 [Ng-Matero Helpers](https://ng-matero.github.io/ng-matero/#/helpers)
+所有 CSS 辅助类可以查看 [Ng-Matero Helpers](https://ng-matero.github.io/ng-matero/#/helpers/css-class)
 
