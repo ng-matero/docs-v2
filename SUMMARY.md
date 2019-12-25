@@ -1,4 +1,16 @@
 # Table of contents
 
-* [Initial page](README.md)
-
+- [简介](README.md)
+- [开始使用](getting-started.md)
+- [原理图](schematics/index.md)
+  - [添加项目](schematics/project-init.md)
+  - [新增路由](schematics/new-route.md)
+- [主题系统](theming/index.md)
+  - [配置布局](theming/layout.md)
+  - [配置菜单](theming/menu.md)
+  - [页面标题](theming/title.md)
+  - [颜色](theming/colors.md)
+  - [样式辅助类](theming/helpers.md)
+- [第三方库](libs/index.md)
+  - [Flex Layout](libs/flex-layout.md)
+- [国际化](i18n/index.md)
