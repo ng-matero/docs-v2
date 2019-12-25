@@ -16,5 +16,4 @@ Ng-Matero 是一个基于 Angular Material 搭建的中后台管理框架。
 2. [segmentfault 专栏](https://segmentfault.com/blog/ng-matero)
 3. 加入 NG-MATERO 的自助服务群
 
-![](.gitbook/assets/qq-group.jpg)
-
+![qq group](.gitbook/assets/qq-group.jpg)
