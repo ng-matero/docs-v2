@@ -8,3 +8,4 @@
 * [ngx-translate](https://github.com/ngx-translate/core)
 * [ngx-toastr](https://github.com/scttcper/ngx-toastr)
 * [photoviewer](https://github.com/nzbin/photoviewer)
+

@@ -46,41 +46,41 @@ $ npm run hmr
 ```text
 ├── src
 │   ├── app
-│   │   ├── core                                # 核心文件
+│   │   ├── core                               
 │   │   │   ├── interceptors                    # HTTP 拦截器
 │   │   │   │   └── default.interceptor.ts
 │   │   │   ├── services                        # 服务
-│   │   │   │   ├── settings.service.ts         # 页面布局配置
 │   │   │   │   ├── menu.service.ts             # 菜单配置
+│   │   │   │   ├── settings.service.ts         # 页面布局配置
 │   │   │   │   └── startup.service.ts          # 初始化项目配置
 │   │   │   │── core.module.ts                  # 核心模块
 │   │   │   │── **
 │   │   │   └── settings.ts                     # 布局配置选项
-│   │   ├── routes                              # 业务文件
+│   │   ├── routes                              
 │   │   │   ├── **
 │   │   │   ├── routes-routing.module.ts        # 业务路由注册口
 │   │   │   └── routes.module.ts                # 业务路由模块
-│   │   ├── shared                              # 共享文件
+│   │   ├── shared                              
 │   │   │   |—— **
 │   │   │   └── shared.module.ts                # 共享模块
-│   │   ├── theme                               # 主题文件
+│   │   ├── theme                               
 │   │   │   ├── admin-layout                    # Admin 布局
 │   │   │   ├── auth-layout                     # 登陆注册布局
+│   │   │   ├── style                           # 核心主题样式
+│   │   │   │   ├── **
+│   │   │   │   └── theming.scss                # 主体化入口文件
 │   │   |   └── theme.module.ts                 # 主题模块
 │   │   ├── app.component.ts                    # 根组件
-│   │   └── app.module.ts                       # 根模块
+│   │   ├── app.module.ts                       # 根模块
 │   │   └── material.module.ts                  # Material 组件模块
 │   ├── assets                                  # 本地静态资源
 │   ├── environments                            # 环境变量配置
-│   ├── styles                                  # 样式目录
-│   │   ├── functions                           # 函数
+│   ├── styles                                  # 业务相关样式目录
+│   │   ├── grid                                # 响应式布局类
 │   │   ├── helpers                             # 工具类
-│   │   ├── mixins                              # mixin
 │   │   ├── plugins                             # 第三方库样式
-│   │   ├── theme                               # 主题核心样式
-│   │   ├── widgets                             # 公用组件
 │   │   ├── **
-│   │   └── app.scss                            # 主题样式入口文件
+│   │   └── themes.scss                         # 主题样式配置文件
 └── └── style.scss                              # 样式主入口文件
 ```
 
