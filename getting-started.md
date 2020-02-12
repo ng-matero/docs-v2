@@ -11,6 +11,7 @@ $ ng new <project-name>
 $ cd <project-name>
 $ ng add ng-matero
 ```
+
 Except using CLI, you can also clone the Starter repo, but Starter has just side nav layout.
 
 ```bash
@@ -42,49 +43,50 @@ Navigate to `http://localhost:4200/`. The app will automatically reload if you c
 
 ## Project Directory
 
-```plain
+```text
 ├── src
 │   ├── app
-│   │   ├── core
-│   │   │   ├── interceptors
-│   │   │   │   └── default.interceptor.ts      
-│   │   │   ├── services
-│   │   │   │   ├── settings.service.ts
-│   │   │   │   ├── menu.service.ts
-│   │   │   │   └── startup.service.ts
-│   │   │   │── core.module.ts
+│   │   ├── core                               
+│   │   │   ├── interceptors                    
+│   │   │   │   └── default.interceptor.ts
+│   │   │   ├── services                        
+│   │   │   │   ├── menu.service.ts             
+│   │   │   │   ├── settings.service.ts         
+│   │   │   │   └── startup.service.ts          
+│   │   │   │── core.module.ts                  
 │   │   │   │── **
-│   │   │   └── settings.ts
-│   │   ├── routes
-│   │   │   ├── ** 
-│   │   │   ├── routes-routing.module.ts
-│   │   │   └── routes.module.ts
-│   │   ├── shared
+│   │   │   └── settings.ts                     
+│   │   ├── routes                              
+│   │   │   ├── **
+│   │   │   ├── routes-routing.module.ts        
+│   │   │   └── routes.module.ts                
+│   │   ├── shared                              
 │   │   │   |—— **
-│   │   │   └── shared.module.ts
-│   │   ├── theme
-│   │   │   ├── admin-layout
-│   │   │   ├── auth-layout
-│   │   |   └── theme.module.ts
-│   │   ├── app.component.ts
-│   │   └── app.module.ts
-│   │   └── material.module.ts
-│   ├── assets
-│   ├── environments
-│   ├── styles
-│   │   ├── functions
-│   │   ├── helpers
-│   │   ├── mixins
-│   │   ├── plugins
-│   │   ├── theme
-│   │   ├── widgets
+│   │   │   └── shared.module.ts                
+│   │   ├── theme                               
+│   │   │   ├── admin-layout                    
+│   │   │   ├── auth-layout                     
+│   │   │   ├── style                           
+│   │   │   │   ├── **
+│   │   │   │   └── theming.scss                
+│   │   |   └── theme.module.ts                 
+│   │   ├── app.component.ts                    
+│   │   ├── app.module.ts                       
+│   │   └── material.module.ts                  
+│   ├── assets                                  
+│   ├── environments                            
+│   ├── styles                                 
+│   │   ├── grid                                
+│   │   ├── helpers                             
+│   │   ├── plugins                             
 │   │   ├── **
-│   │   └── app.scss
-└── └── style.scss
+│   │   └── themes.scss                         
+└── └── style.scss                              
 ```
 
 The directory structure follows the Angular style guide, and is also for convenience of the CLI to add business module. There may be some small adjustments in the future.
 
 ## Project Running
 
-The project runs `startup.service` by default. Some key information (such as menu data, user data, etc.) before the project starts can be written in the `startup.service`.
+The project runs `startup.service` by default. Some key information \(such as menu data, user data, etc.\) before the project starts can be written in the `startup.service`.
+
