@@ -1,8 +1,9 @@
 # Responsive layout
 
-Angular Material does not have a responsive layout component by default. We must implement a responsive layout with Angular's official flex-layout.
+[flex-layout](https://github.com/angular/flex-layout) layout engine based on directives designed for Angular. It's easy to use.
+More details to flex-layout [wiki](https://github.com/angular/flex-layout/wiki).
 
-flex-layout layout engine based on directives designed for Angular. It's easy to use.
+### Issues
 
 I found some problems when using it. The spacing between columns needs to be implemented by `fxLayoutGap` instruction. This directive doesn't work very well for some complicated reasons. Someone been suggested to add the `fxLayoutGutter` directive, but it has not been implemented officially for various reasons.
 
