@@ -11,7 +11,9 @@
   * [Page Title](theming/title.md)
   * [Colors](theming/colors.md)
   * [Helpers](theming/helpers.md)
-* [Responsive layout](responsive-layout.md)
+* [Responsive Layout](responsive-layout-1/README.md)
+  * [Flex layout](responsive-layout-1/flex-layout.md)
+  * [Grid Class](responsive-layout-1/grid-class.md)
 * [Third Libs](libs.md)
 * [Internationalization](i18n.md)
 
