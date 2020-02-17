@@ -12,7 +12,7 @@
   * [Colors](theming/colors.md)
   * [Helpers](theming/helpers.md)
 * [Responsive](responsive/README.md)
-  * [Flex layout](responsive/flex-layout.md)
+  * [Flex layout](responsive-layout.md)
   * [Grid Class](responsive/grid-class.md)
 * [Third Libs](libs.md)
 * [Internationalization](i18n.md)
