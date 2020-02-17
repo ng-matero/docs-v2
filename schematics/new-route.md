@@ -1,4 +1,4 @@
-# Add a New Route
+# Add a new route
 
 Ng-Matero currently provides two schematics for generating codes, `ng g ng-matero:module` and `ng g ng-matero:page`. These two commands are extentions to Angular CLI `ng g module` and `ng g component`.
 
@@ -81,8 +81,8 @@ $ ng g component routes/<module-name>/<page-name> -m=routes/<module-name>
 
 The main differences between `ng-matero:page` and `component` are as follows:
 
-* Optimize component name: to prevent component duplication, add the module name prefix by default.
-* Optimize component generation path: add to `routes` by default.
-* Add declarations to constant array, e.g. `COMPONENTS`.
-* Add the component's routing declaration to the module routing.
+- Optimize component name: to prevent component duplication, add the module name prefix by default.
+- Optimize component generation path: add to `routes` by default.
+- Add declarations to constant array, e.g. `COMPONENTS`.
+- Add the component's routing declaration to the module routing.
 
