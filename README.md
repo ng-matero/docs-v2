@@ -1,6 +1,6 @@
 # 简介
 
-Ng-Matero 是一个基于 Angular Material 搭建的中后台管理框架。
+[Ng-Matero](https://github.com/ng-matero/ng-matero) 是一个基于 Angular Material 搭建的中后台管理框架。
 
 开发 ng-matero 的初衷是希望提供一个基于 Angular Material 组件库的高质量、高度可定制的后台模板，同时基于 Schematics 提供更便利的业务指令。
 
