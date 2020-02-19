@@ -1,8 +1,6 @@
 # Flex Layout
 
-[flex-layout](https://github.com/angular/flex-layout) 是一个专为 Angular 设计的基于指令的布局神器，使用非常方便。
-
-具体使用方式可以参见 flex-layout 的[文档](https://github.com/angular/flex-layout/wiki)。
+[flex-layout](https://github.com/angular/flex-layout) 是一个专为 Angular 设计的基于指令的布局神器，使用非常方便。具体使用方式可以参见 flex-layout 的[文档](https://github.com/angular/flex-layout/wiki)。
 
 ### Issues
 
