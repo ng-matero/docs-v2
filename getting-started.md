@@ -49,7 +49,7 @@ $ npm run hmr
 │   │   ├── core                               
 │   │   │   ├── interceptors                    # HTTP 拦截器
 │   │   │   │   └── default.interceptor.ts
-│   │   │   ├── services                        # 服务
+│   │   │   ├── bootstrap                       # 初始化相关服务
 │   │   │   │   ├── menu.service.ts             # 菜单配置
 │   │   │   │   ├── settings.service.ts         # 页面布局配置
 │   │   │   │   └── startup.service.ts          # 初始化项目配置
