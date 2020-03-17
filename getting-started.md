@@ -49,7 +49,7 @@ Navigate to `http://localhost:4200/`. The app will automatically reload if you c
 │   │   ├── core                               
 │   │   │   ├── interceptors                    
 │   │   │   │   └── default.interceptor.ts
-│   │   │   ├── services                        
+│   │   │   ├── bootstrap                        
 │   │   │   │   ├── menu.service.ts             
 │   │   │   │   ├── settings.service.ts         
 │   │   │   │   └── startup.service.ts          
