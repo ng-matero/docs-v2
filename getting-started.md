@@ -47,12 +47,12 @@ $ npm run hmr
 ├── src
 │   ├── app
 │   │   ├── core                               
-│   │   │   ├── interceptors                    # HTTP 拦截器
-│   │   │   │   └── default.interceptor.ts
-│   │   │   ├── services                        # 服务
+│   │   │   ├── bootstrap                       # 初始化相关服务
 │   │   │   │   ├── menu.service.ts             # 菜单配置
 │   │   │   │   ├── settings.service.ts         # 页面布局配置
 │   │   │   │   └── startup.service.ts          # 初始化项目配置
+│   │   │   ├── interceptors                    # HTTP 拦截器
+│   │   │   │   └── default.interceptor.ts
 │   │   │   │── core.module.ts                  # 核心模块
 │   │   │   │── **
 │   │   │   └── settings.ts                     # 布局配置选项
@@ -68,7 +68,7 @@ $ npm run hmr
 │   │   │   ├── auth-layout                     # 登陆注册布局
 │   │   │   ├── style                           # 核心主题样式
 │   │   │   │   ├── **
-│   │   │   │   └── theming.scss                # 主体化入口文件
+│   │   │   │   └── theming.scss                # 主题化入口文件
 │   │   |   └── theme.module.ts                 # 主题模块
 │   │   ├── app.component.ts                    # 根组件
 │   │   ├── app.module.ts                       # 根模块
