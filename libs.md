@@ -9,6 +9,7 @@ Recommend some excellent Angular third-party libraries:
 * [ngx-toastr](https://github.com/scttcper/ngx-toastr)
 * [ngx-permissions](https://github.com/AlexKhymenko/ngx-permissions)
 * [photoviewer](https://github.com/nzbin/photoviewer)
+* [angular-split](https://github.com/bertrandg/angular-split)
 * [angular-calendar](https://github.com/mattlewis92/angular-calendar)
 * [ngx-codemirror](https://github.com/TypeCtrl/ngx-codemirror)
 
