@@ -10,6 +10,7 @@
 * [ngx-permissions](https://github.com/AlexKhymenko/ngx-permissions)
 * [photoviewer](https://github.com/nzbin/photoviewer)
 * [angular-calendar](https://github.com/mattlewis92/angular-calendar)
+* [ngx-codemirror](https://github.com/TypeCtrl/ngx-codemirror)
 
 
 
