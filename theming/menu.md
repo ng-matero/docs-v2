@@ -11,14 +11,14 @@ export interface MenuTag {
 }
 
 export interface MenuChildrenItem {
-  state: string;
+  route: string;
   name: string;
   type: 'link' | 'sub' | 'extLink' | 'extTabLink';
   children?: MenuChildrenItem[];
 }
 
 export interface Menu {
-  state: string;
+  route: string;
   name: string;
   type: 'link' | 'sub' | 'extLink' | 'extTabLink';
   icon: string;
