@@ -2,29 +2,29 @@
 
 The Menu service can return a Menu array, and the navigation of the application is generated dynamically based on the Menu data and associated with the route.
 
-The route path of each menu item is composed of the parent and child `states`. Following is the type definition for the menu.
+The route path of each menu item is composed of the parent and child `route`. Following is the type definition for the menu.
 
 ```typescript
-export interface Tag {
+export interface MenuTag {
   color: string; // Background Color
   value: string;
 }
 
-export interface ChildrenItem {
-  state: string;
+export interface MenuChildrenItem {
+  route: string;
   name: string;
   type: 'link' | 'sub' | 'extLink' | 'extTabLink';
-  children?: ChildrenItem[];
+  children?: MenuChildrenItem[];
 }
 
 export interface Menu {
-  state: string;
+  route: string;
   name: string;
   type: 'link' | 'sub' | 'extLink' | 'extTabLink';
   icon: string;
-  label?: Tag;
-  badge?: Tag;
-  children?: ChildrenItem[];
+  label?: MenuTag;
+  badge?: MenuTag;
+  children?: MenuChildrenItem[];
 }
 ```
 
@@ -32,26 +32,26 @@ export interface Menu {
 
 Ng-Matero's menu only supports three levels, and generally, two levels are enough.
 
-Take the two levels menu as an example: the `state` of the first-level item represents the `path` of the lazy module, and the `state` of the second-level item represents the `path` of the business component. So the final routing path of the business page is `level_1_state/level_2_state`. In a few cases, the three levels menu may be used.
+Take the two levels menu as an example: the `route` of the first-level item represents the `path` of the lazy module, and the `route` of the second-level item represents the `path` of the business component. So the final routing path of the business page is `level_1_route/level_2_route`. In a few cases, the three levels menu may be used.
 
-Here is an example of a three levels menu. If you use the three levels menu, the `state` of the second-level item is allowed to be empty, and the final routing path is `material/autocomplete`. However, there is a problem in this case where the routing path cannot be associated with the third-level of the menu.
+Here is an example of a three levels menu. If you use the three levels menu, the `route` of the second-level item is allowed to be empty, and the final routing path is `material/autocomplete`. However, there is a problem in this case where the routing path cannot be associated with the third-level of the menu.
 
 ```javascript
 {
   "menu": [
     {
-      "state": "material",
+      "route": "material",
       "name": "Material",
       "type": "sub",
       "icon": "favorite",
       "children": [
         {
-          "state": "",
+          "route": "",
           "name": "Form Controls",
           "type": "sub",
           "children": [
             {
-              "state": "autocomplete",
+              "route": "autocomplete",
               "name": "Autocomplete",
               "type": "link"
             }
