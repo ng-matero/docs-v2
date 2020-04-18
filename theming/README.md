@@ -7,17 +7,19 @@ Ng-Matero's theme system provides two commonly used layouts \(`side navigation` 
 Ng-Matero's theme styles are written based on Sass, so users must understand the basics of Sass. The theme style directory is as follows:
 
 ```text
-├── styles
-│   ├── functions
-│   ├── helpers
-│   ├── mixins
-│   ├── plugins
-│   ├── theme
-│   ├── widgets
-│   ├── _functions.scss
-│   ├── _mixins.scss
-│   ├── _variables.scss
-└── └── app.scss
+├── theme                               
+│   ├── style                           
+│   │   ├── core   
+│   │   ├── functions   
+│   │   ├── mixins
+│   │   ├── widgets
+│   │   ├── _colors.scss
+│   │   ├── _core.scss
+│   │   ├── _functions.scss
+│   │   ├── _mixins.scss
+│   │   ├── _variables.scss
+│   │   ├── _widgets.scss
+│   │   └── theming.scss 
 ```
 
 `sidenav` and `topnav` used mixins to make it easier to change the theme color.
