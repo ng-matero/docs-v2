@@ -3,26 +3,26 @@
 菜单服务会返回一个 Menu 数组，应用的导航会根据菜单数据动态生成，并且和路由相关联。每个菜单项的路由是由父级和子级的 `state` 组合而成。我们稍后用一个示例说明，以下是菜单的类型定义。
 
 ```typescript
-export interface Tag {
+export interface MenuTag {
   color: string; // Background Color
   value: string;
 }
 
-export interface ChildrenItem {
-  state: string;
+export interface MenuChildrenItem {
+  route: string;
   name: string;
   type: 'link' | 'sub' | 'extLink' | 'extTabLink';
-  children?: ChildrenItem[];
+  children?: MenuChildrenItem[];
 }
 
 export interface Menu {
-  state: string;
+  route: string;
   name: string;
   type: 'link' | 'sub' | 'extLink' | 'extTabLink';
   icon: string;
-  label?: Tag;
-  badge?: Tag;
-  children?: ChildrenItem[];
+  label?: MenuTag;
+  badge?: MenuTag;
+  children?: MenuChildrenItem[];
 }
 ```
 
