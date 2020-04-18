@@ -5,26 +5,26 @@ The Menu service can return a Menu array, and the navigation of the application 
 The route path of each menu item is composed of the parent and child `states`. Following is the type definition for the menu.
 
 ```typescript
-export interface MenuTag {
+export interface Tag {
   color: string; // Background Color
   value: string;
 }
 
-export interface MenuChildrenItem {
-  route: string;
+export interface ChildrenItem {
+  state: string;
   name: string;
   type: 'link' | 'sub' | 'extLink' | 'extTabLink';
-  children?: MenuChildrenItem[];
+  children?: ChildrenItem[];
 }
 
 export interface Menu {
-  route: string;
+  state: string;
   name: string;
   type: 'link' | 'sub' | 'extLink' | 'extTabLink';
   icon: string;
-  label?: MenuTag;
-  badge?: MenuTag;
-  children?: MenuChildrenItem[];
+  label?: Tag;
+  badge?: Tag;
+  children?: ChildrenItem[];
 }
 ```
 
