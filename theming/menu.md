@@ -1,6 +1,6 @@
 # 配置菜单
 
-菜单服务会返回一个 Menu 数组，应用的导航会根据菜单数据动态生成，并且和路由相关联。每个菜单项的路由是由父级和子级的 `state` 组合而成。我们稍后用一个示例说明，以下是菜单的类型定义。
+菜单服务会返回一个 Menu 数组，应用的导航会根据菜单数据动态生成，并且和路由相关联。每个菜单项的路由是由父级和子级的 `route` 组合而成。我们稍后用一个示例说明，以下是菜单的类型定义。
 
 ```typescript
 export interface MenuTag {
@@ -30,26 +30,26 @@ export interface Menu {
 
 ng-matero 的菜单只支持三级，一般来说，二级菜单已经够用了。
 
-以二级菜单为例：一级子项的 `state` 表示惰性模块的路由 `path`，二级子项的 `state` 表示业务组件的路由 `path`，所以业务页的最终路由地址就是 `level_1_state/level_2_state`。在少数情况下可能会用到三级菜单。
+以二级菜单为例：一级子项的 `route` 表示惰性模块的路由 `path`，二级子项的 `route` 表示业务组件的路由 `path`，所以业务页的最终路由地址就是 `level_1_route/level_2_route`。在少数情况下可能会用到三级菜单。
 
-以下是一个三级菜单的示例。如果使用三级菜单，其二级子项的 `state` 允许为空，最终的路由地址为 `material/autocomplete`。但是这种情况下会有一个问题，路由地址无法关联到菜单的第三级。
+以下是一个三级菜单的示例。如果使用三级菜单，其二级子项的 `route` 允许为空，最终的路由地址为 `material/autocomplete`。但是这种情况下会有一个问题，路由地址无法关联到菜单的第三级。
 
 ```javascript
 {
   "menu": [
     {
-      "state": "material",
+      "route": "material",
       "name": "Material",
       "type": "sub",
       "icon": "favorite",
       "children": [
         {
-          "state": "",
+          "route": "",
           "name": "Form Controls",
           "type": "sub",
           "children": [
             {
-              "state": "autocomplete",
+              "route": "autocomplete",
               "name": "Autocomplete",
               "type": "link"
             }
