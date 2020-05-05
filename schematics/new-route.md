@@ -26,7 +26,7 @@ const routes: Routes = [
 
 The route declarations will be added in children route of `AdminLayoutComponent` by default and no other insertion location can be set for the time being.
 
-### Vs origin module
+### VS origin module
 
 Ng-Matero's module is equivalent to the following `ng` CLI：
 
@@ -71,7 +71,7 @@ $ ng g ng-matero:page <page-name>/<entry-component-name> -m=<module-name> -e=tru
 
 After the creation is complete, you need to manually write the component content, which is often used for editing modal. Corresponding modal templates schematic may be added in subsequent iterations.
 
-### Vs origin component
+### VS origin component
 
 Using the original `component` can only create components, not add routing declarations. For example, the following methods can only add a component in a lazy module, the other declarations need to be added manually.
 
