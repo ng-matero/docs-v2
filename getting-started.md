@@ -68,7 +68,7 @@ Navigate to `http://localhost:4200/`. The app will automatically reload if you c
 │   │   │   ├── auth-layout                     
 │   │   │   ├── style                           
 │   │   │   │   ├── **
-│   │   │   │   └── theming.scss                
+│   │   │   │   └── main.scss                
 │   │   |   └── theme.module.ts                 
 │   │   ├── app.component.ts                    
 │   │   ├── app.module.ts                       
@@ -81,7 +81,7 @@ Navigate to `http://localhost:4200/`. The app will automatically reload if you c
 │   │   ├── plugins                             
 │   │   ├── **
 │   │   └── themes.scss                         
-└── └── style.scss                              
+└── └── styles.scss                              
 ```
 
 The directory structure follows the Angular style guide, and is also for convenience of the CLI to add business module. There may be some small adjustments in the future.
