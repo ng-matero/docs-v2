@@ -68,7 +68,7 @@ $ npm run hmr
 │   │   │   ├── auth-layout                     # 登陆注册布局
 │   │   │   ├── style                           # 核心主题样式
 │   │   │   │   ├── **
-│   │   │   │   └── theming.scss                # 主题化入口文件
+│   │   │   │   └── main.scss
 │   │   |   └── theme.module.ts                 # 主题模块
 │   │   ├── app.component.ts                    # 根组件
 │   │   ├── app.module.ts                       # 根模块
@@ -81,7 +81,7 @@ $ npm run hmr
 │   │   ├── plugins                             # 第三方库样式
 │   │   ├── **
 │   │   └── themes.scss                         # 主题样式配置文件
-└── └── style.scss                              # 样式主入口文件
+└── └── styles.scss                             # 样式主入口文件
 ```
 
 目录结构遵循 Angular 风格指南，同时也是为了方便 CLI 添加业务模块，后期可能还有微调。
