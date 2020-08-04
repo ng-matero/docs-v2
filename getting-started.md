@@ -67,7 +67,8 @@ Navigate to `http://localhost:4200/`. The app will automatically reload if you c
 │   │   │   ├── admin-layout                    
 │   │   │   ├── auth-layout                     
 │   │   │   ├── style                           
-│   │   │   ├── theme.scss              
+│   │   │   │   ├── **
+│   │   │   │   └── main.scss                
 │   │   |   └── theme.module.ts                 
 │   │   ├── app.component.ts                    
 │   │   ├── app.module.ts                       
@@ -79,7 +80,6 @@ Navigate to `http://localhost:4200/`. The app will automatically reload if you c
 │   │   ├── helpers                             
 │   │   ├── plugins                             
 │   │   ├── **
-│   │   ├── _app-theme.scss
 │   │   └── themes.scss                         
 └── └── styles.scss                              
 ```
