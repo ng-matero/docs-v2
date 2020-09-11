@@ -4,8 +4,6 @@
 
 开发 ng-matero 的初衷是希望提供一个基于 Angular Material 组件库的高质量、高度可定制的后台模板，同时基于 Schematics 提供更便利的业务指令。
 
-框架目前还不是很成熟，各方面都有待完善。
-
 ## 如何贡献
 
 如果你喜欢该项目或者有更好的建议，欢迎 [Pull request](https://github.com/ng-matero/ng-matero/pulls)，或者提 [Issues](https://github.com/ng-matero/ng-matero/issues)
