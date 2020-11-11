@@ -86,8 +86,6 @@ $ npm run hmr
 
 目录结构遵循 Angular 风格指南，同时也是为了方便 CLI 添加业务模块，后期可能还有微调。
 
-
-
 ## 项目运行
 
 项目运行后默认执行 `startup.service`，项目启动前的一些关键信息，比如菜单、用户信息等，都可以写在 `startup.service` 中。
