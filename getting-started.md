@@ -67,7 +67,7 @@ Navigate to `http://localhost:4200/`. The app will automatically reload if you c
 │   │   │   ├── admin-layout                    
 │   │   │   ├── auth-layout                     
 │   │   │   ├── style                           
-│   │   │   ├── theme.scss              
+│   │   │   ├── style.scss              
 │   │   |   └── theme.module.ts                 
 │   │   ├── app.component.ts                    
 │   │   ├── app.module.ts                       
