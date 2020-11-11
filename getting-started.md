@@ -67,7 +67,7 @@ $ npm run hmr
 │   │   │   ├── admin-layout                    # Admin 布局
 │   │   │   ├── auth-layout                     # 登陆注册布局
 │   │   │   ├── style                           # 核心主题样式
-│   │   │   ├── theme.scss
+│   │   │   ├── style.scss
 │   │   |   └── theme.module.ts                 # 主题模块
 │   │   ├── app.component.ts                    # 根组件
 │   │   ├── app.module.ts                       # 根模块
