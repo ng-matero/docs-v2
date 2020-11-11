@@ -80,7 +80,7 @@ $ npm run hmr
 │   │   ├── plugins                             # 第三方库样式
 │   │   ├── **
 │   │   ├── _app-theme.scss
-│   │   └── theming.scss                        # 主题样式配置文件
+│   │   └── themes.scss                        # 主题样式配置文件
 └── └── styles.scss                             # 样式主入口文件
 ```
 
