@@ -14,7 +14,7 @@
 * [响应式布局](responsive/README.md)
   * [Flex Layout](responsive/flex-layout.md)
   * [Grid Class](responsive/grid-class.md)
-* [第三方库](libs.md)
-* [国际化](i18n.md)
 * [权限管理](quan-xian-guan-li.md)
+* [国际化](i18n.md)
+* [第三方库](libs.md)
 
