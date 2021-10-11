@@ -43,7 +43,7 @@ $ npm run hmr
 
 ## 项目目录
 
-```text
+```
 ├── src
 │   ├── app
 │   │   ├── core                               
@@ -89,4 +89,3 @@ $ npm run hmr
 ## 项目运行
 
 项目运行后默认执行 `startup.service`，项目启动前的一些关键信息，比如菜单、用户信息等，都可以写在 `startup.service` 中。
-

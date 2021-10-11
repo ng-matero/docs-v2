@@ -10,9 +10,14 @@
 
 ## 交流讨论
 
-1. [知乎专栏](https://zhuanlan.zhihu.com/c_1131933006674526208)
+1. [知乎专栏](https://zhuanlan.zhihu.com/c\_1131933006674526208)
 2. [segmentfault 专栏](https://segmentfault.com/blog/ng-matero)
 3. 加入 NG-MATERO 的自助服务群
 
-![QQ&#x7FA4;: 892182140](.gitbook/assets/qq-group.jpg)
+![QQ群: 892182140](.gitbook/assets/qq-group.jpg)
 
+## 打赏作者
+
+如果本项目对你有帮助，可以请作者喝杯咖啡！
+
+![](.gitbook/assets/pay-qrcode.jpg)

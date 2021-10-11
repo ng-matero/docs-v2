@@ -18,5 +18,3 @@
 * [angular2gridster](https://github.com/swiety85/angular2gridster)
 * [mat-datetimepicker](https://github.com/kuhnroyal/mat-datetimepicker)
 
-
-

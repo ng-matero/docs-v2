@@ -5,5 +5,3 @@ Angular Material 默认没有响应式布局组件，但是我们可以使用两
 * 使用 Angular 官方提供的 `flex-layout`
 * 使用 Ng-Matero 提供的响应式栅格
 
-
-

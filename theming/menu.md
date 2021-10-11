@@ -63,8 +63,8 @@ ng-matero 的菜单只支持三级，一般来说，二级菜单已经够用了�
 
 关于三级菜单的问题可以看一下演示示例的路由地址，分别打开以下两个路径查看菜单变化：
 
-* [https://ng-matero.github.io/ng-matero/\#/material/autocomplete](https://ng-matero.github.io/ng-matero/#/material/autocomplete)
-* [https://ng-matero.github.io/ng-matero/\#/material/data-table/paginator](https://ng-matero.github.io/ng-matero/#/material/data-table/paginator)
+* [https://ng-matero.github.io/ng-matero/#/material/autocomplete](https://ng-matero.github.io/ng-matero/#/material/autocomplete)
+* [https://ng-matero.github.io/ng-matero/#/material/data-table/paginator](https://ng-matero.github.io/ng-matero/#/material/data-table/paginator)
 
 ## 标签颜色
 
@@ -74,11 +74,10 @@ ng-matero 的菜单只支持三级，一般来说，二级菜单已经够用了�
 
 ### MenuService
 
-| 方法 | 参数 | 返回值 | 描述 |
-| :--- | :--- | :--- | :--- |
-| getAll | - | `Menu[]` | 获取全部菜单 |
-| set | `menu: Menu[]` | `Menu[]` | 设置菜单 |
-| add | `menu: Menu` | - | 添加一个菜单项 |
+| 方法              | 参数                   | 返回值      | 描述      |
+| --------------- | -------------------- | -------- | ------- |
+| getAll          | -                    | `Menu[]` | 获取全部菜单  |
+| set             | `menu: Menu[]`       | `Menu[]` | 设置菜单    |
+| add             | `menu: Menu`         | -        | 添加一个菜单项 |
 | getMenuItemName | `stateArr: string[]` | `string` | 获取菜单项名称 |
-| getMenuLevel | `stateArr: string[]` | `string` | 获取菜单层级 |
-
+| getMenuLevel    | `stateArr: string[]` | `string` | 获取菜单层级  |

@@ -7,4 +7,3 @@ Schematics 可以说是 Angular 生态中非常强大的一个功能。通过 Sc
 * [ng add](project-init.md)
 * [ng generate](new-route.md)
 * ng update
-
