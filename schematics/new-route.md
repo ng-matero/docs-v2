@@ -34,9 +34,9 @@ Ng-Matero's module is equivalent to the following `ng` CLI：
 $ ng g module routes/abc -m=routes --route=abc
 ```
 
-> The Angular CLI 8.x version has a bug, it will throw an error with above command. I have submit an issue and pull a request. The Angular team has optimized for the problem, but is not sure which release fixes it, so check for yourself.
+> The Angular CLI 8.x version has a bug, it will throw an error with above command. I have submit an issue and pull a request. The Angular team has optimized for the problem, but I'm not sure which release fixes it, you should check for yourself.
 
-But when Angular generates a lazy module, it declares a route to the sibling route location:
+When Angular generates a lazy module, it declares a route to the sibling route location:
 
 ```diff
 const routes: Routes = [
@@ -85,4 +85,3 @@ The main differences between `ng-matero:page` and `component` are as follows:
 * Optimize component generation path: add to `routes` by default.
 * Add declarations to constant array, e.g. `COMPONENTS`.
 * Add the component's routing declaration to the module routing.
-
