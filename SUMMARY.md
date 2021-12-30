@@ -14,7 +14,7 @@
 * [Responsive](responsive/README.md)
   * [Flex layout](responsive/flex-layout.md)
   * [Grid Class](responsive/grid-class.md)
+* [Authentication](authentication.md)
 * [Permissions](permissions.md)
 * [Internationalization](i18n.md)
 * [Third Libs](libs.md)
-
