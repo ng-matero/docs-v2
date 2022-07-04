@@ -2,6 +2,7 @@
 
 推荐一些优秀的 Angular 第三方库：
 
+* [material extensions](https://github.com/ng-matero/extensions)
 * [photoviewer](https://github.com/nzbin/photoviewer)
 * [ng-select](https://github.com/ng-select/ng-select)
 * [ngx-formly](https://github.com/ngx-formly/ngx-formly)
