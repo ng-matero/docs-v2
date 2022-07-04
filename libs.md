@@ -10,6 +10,7 @@ Recommend some excellent Angular third-party libraries:
 * [ngx-translate](https://github.com/ngx-translate/core)
 * [ngx-toastr](https://github.com/scttcper/ngx-toastr)
 * [ngx-permissions](https://github.com/AlexKhymenko/ngx-permissions)
+* [ngx-gallery](https://github.com/MurhafSousli/ngx-gallery)
 * [ngx-mask](https://github.com/JsDaddy/ngx-mask)
 * [ng-circle-progress](https://github.com/bootsoon/ng-circle-progress)
 * [ngx-codemirror](https://github.com/TypeCtrl/ngx-codemirror)
