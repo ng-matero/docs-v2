@@ -63,8 +63,8 @@ Here is an example of a three levels menu. If you use the three levels menu, the
 
 Regarding the three levels menu, you can take a look at the routing path of the demo example. Open the following two paths respectively to check the menu changes:
 
-* [https://ng-matero.github.io/ng-matero/material/autocomplete](https://ng-matero.github.io/ng-matero/#/material/autocomplete)
-* [https://ng-matero.github.io/ng-matero/material/data-table/paginator](https://ng-matero.github.io/ng-matero/#/material/data-table/paginator)
+* [https://ng-matero.github.io/ng-matero/material/autocomplete](https://ng-matero.github.io/ng-matero/material/autocomplete)
+* [https://ng-matero.github.io/ng-matero/material/data-table/paginator](https://ng-matero.github.io/ng-matero/material/data-table/paginator)
 
 ## Label Color
 
