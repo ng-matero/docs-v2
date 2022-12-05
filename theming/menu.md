@@ -61,8 +61,8 @@ export interface Menu {
 
 关于三级菜单的问题可以看一下演示示例的路由地址，分别打开以下两个路径查看菜单变化：
 
-* [https://ng-matero.github.io/ng-matero/#/material/autocomplete](https://ng-matero.github.io/ng-matero/#/material/autocomplete)
-* [https://ng-matero.github.io/ng-matero/#/material/data-table/paginator](https://ng-matero.github.io/ng-matero/#/material/data-table/paginator)
+* [https://ng-matero.github.io/ng-matero/material/autocomplete](https://ng-matero.github.io/ng-matero/#/material/autocomplete)
+* [https://ng-matero.github.io/ng-matero/material/data-table/paginator](https://ng-matero.github.io/ng-matero/#/material/data-table/paginator)
 
 ## 标签颜色
 
