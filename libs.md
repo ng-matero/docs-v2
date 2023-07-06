@@ -17,4 +17,5 @@ Recommend some excellent Angular third-party libraries:
 * [angular-split](https://github.com/bertrandg/angular-split)
 * [angular-calendar](https://github.com/mattlewis92/angular-calendar)
 * [fullcalendar-angular](https://github.com/fullcalendar/fullcalendar-angular)
-* [angular2gridster](https://github.com/swiety85/angular2gridster)
+* [angular-gridster2](https://github.com/tiberiuzuld/angular-gridster2)
+
