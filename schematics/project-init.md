@@ -2,7 +2,9 @@
 
 使用 `ng add` 命令可以快速创建项目目录，并且可以通过 CLI 选项配置 ng-matero 的主题风格等。
 
-1、必须创建一个 Angular 项目，建议采用最新的 CLI 版本（8.x）创建，低版本可能会有兼容问题。
+1、必须创建一个 Angular 项目，建议采用 CLI 版本（17.x）创建，低版本可能会有兼容问题。
+
+> 最新 `Angular 18` 将会在不久支持
 
 ```bash
 $ ng new <project-name>
@@ -23,21 +25,25 @@ $ ng add ng-matero
 
 ![](../.gitbook/assets/project-init.png)
 
-*   Choose a prebuilt layout template (`static`/`dynamic`)
+*   Choose a prebuilt layout template (选择布局模板类型)
 
-    选择布局模板类型：`static` 表示静态模板，项目启动后无法再通过 `options` 更改布局样式；`dynamic` 则保留了所有布局参数，项目启动后可以通过 `options` 动态更改布局，比如演示示例就是这种方式。
-*   Choose a prebuilt navigation type (`side`/`top`)
+    - `static`: 表示静态模板，项目启动后无法再通过 `options` 更改布局样式
+    - `dynamic`: 保留了所有布局参数，项目启动后可以通过 `options` 动态更改布局，比如演示示例就是这种方式。
+*   Choose a prebuilt navigation type (选择导航类型)
 
-    选择导航类型：侧边栏导航或者顶部导航
-*   Choose a prebuilt theme style (`light`/`dark`)
+    - `side`: 侧边栏导航
+    - `top`: 顶部导航
+*   Choose a prebuilt theme style (选择主题风格)
 
-    选择这题风格：明亮主题或者暗黑主题
-*   Choose a prebuilt direction option (`ltr`/`rtl`)
+    - `Auto`: 根据系统
+    - `light`: 明亮主题
+    - `dark`: 暗黑主题
+*   Choose a prebuilt direction option (选择文字方向)
 
-    选择文字方向：从左到右或者从右到左
-*   Set up HammerJS for gesture recognition (`Yes`/`No`)
+    - `ltr`: 从左到右
+    - `rtl`: 从右到左
+*   Include the Angular animations module? (是否包含Angular动画模块？)
 
-    是否使用 HammerJS
-*   Set up browser animations for Angular Material (`Yes`/`No`)
-
-    是否开启动画
+    - `Include and enable animations`: 包含并启用动画
+    - `Include, but disable animations`: 包含但禁用动画
+    - `Do not include`: 不包含
