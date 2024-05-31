@@ -2,7 +2,9 @@
 
 使用 `ng add` 命令可以快速创建项目目录，并且可以通过 CLI 选项配置 ng-matero 的主题风格等。
 
-1、必须创建一个 Angular 项目，建议采用最新的 CLI 版本（8.x）创建，低版本可能会有兼容问题。
+1、必须创建一个 Angular 项目，建议采用 CLI 版本（17.x）创建，低版本可能会有兼容问题。
+
+> 最新 `Angular 18` 将会在不久支持
 
 ```bash
 $ ng new <project-name>
