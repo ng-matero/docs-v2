@@ -25,23 +25,23 @@ $ ng add ng-matero
 
 *   Choose a prebuilt layout template (选择布局模板类型)
 
-    `static`: 表示静态模板，项目启动后无法再通过 `options` 更改布局样式
-    `dynamic`: 保留了所有布局参数，项目启动后可以通过 `options` 动态更改布局，比如演示示例就是这种方式。
+    - `static`: 表示静态模板，项目启动后无法再通过 `options` 更改布局样式
+    - `dynamic`: 保留了所有布局参数，项目启动后可以通过 `options` 动态更改布局，比如演示示例就是这种方式。
 *   Choose a prebuilt navigation type (选择导航类型)
 
-    `side`: 侧边栏导航
-    `top`: 顶部导航
+    - `side`: 侧边栏导航
+    - `top`: 顶部导航
 *   Choose a prebuilt theme style (选择主题风格)
 
-    `Auto`: 根据系统
-    `light`: 明亮主题
-    `dark`: 暗黑主题
+    - `Auto`: 根据系统
+    - `light`: 明亮主题
+    - `dark`: 暗黑主题
 *   Choose a prebuilt direction option (选择文字方向)
 
-    `ltr`: 从左到右
-    `rtl`: 从右到左
+    - `ltr`: 从左到右
+    - `rtl`: 从右到左
 *   Include the Angular animations module? (是否包含Angular动画模块？)
 
-    `Include and enable animations`: 包含并启用动画
-    `Include, but disable animations`: 包含但禁用动画
-    `Do not include`: 不包含
+    - `Include and enable animations`: 包含并启用动画
+    - `Include, but disable animations`: 包含但禁用动画
+    - `Do not include`: 不包含
