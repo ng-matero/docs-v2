@@ -98,13 +98,13 @@ server {
     server_name www.example.com;
 	...
     location / {
-        # ng-matero 项目 web 服务器
+        # ng-matero web server
         proxy_pass http://localhost:port;
         ...
     }
     location /api {
-        # ng-matero 项目 api 服务器
-        rewrite ^/api/?(.*)$ /$1 break; # 如果真实路径没有 api 前缀
+        # ng-matero api server
+        rewrite ^/api/?(.*)$ /$1 break; # If the actual path does not have an api prefix
         proxy_pass http://localhost:port;
         ...
     }
