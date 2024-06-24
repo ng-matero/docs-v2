@@ -1,12 +1,12 @@
 # 登录认证
 
-## 1. 删除FakeLoginService
+### 1. 删除FakeLoginService
 
 **`FakeLoginService`只是为了演示登录前后的效果，不应该在实际项目当中存在。**
 
 将`src\app\fake-login.service.ts`文件删除。
 
-接下来修改一下*应用配置*。
+接下来修改一下_应用配置_。
 
 ```diff
 // app.config.ts
@@ -25,9 +25,9 @@ export const appConfig: ApplicationConfig = {
 }
 ```
 
-## 2. 使用本地代理
+### 2. 使用本地代理
 
-我们推荐将后端的接口地址，在*开发环境*通过[代理](https://angular.dev/tools/cli/serve#proxying-to-a-backend-server)进行访问，而*生产环境*中则是使用像 nginx 进行部署。
+我们推荐将后端的接口地址，在_开发环境_通过[代理](https://angular.dev/tools/cli/serve#proxying-to-a-backend-server)进行访问，而_生产环境_中则是使用像 nginx 进行部署。
 
 ```diff
 // proxy.config.js
@@ -48,7 +48,7 @@ module.exports = PROXY_CONFIG;
 
 > `ng-matero` 已经默认支持代理，所以不需要修改 `angular.json` 文件。
 
-## 3. 登录服务
+### 3. 登录服务
 
 然后，登录服务网络请求地址进行修改。
 
@@ -90,7 +90,7 @@ export class LoginService {
 
 > 可以根据实际情况，将请求返回类型进行修改，比如接口带有信息的封装。
 
-## SP. Nginx 部署
+### SP. Nginx 部署
 
 这里介绍最简单化的配置方式，只需要将接口地址重写一下路径，和通常的反向代理一致。
 
